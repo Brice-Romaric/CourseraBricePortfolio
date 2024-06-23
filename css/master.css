@@ -1,0 +1,123 @@
+body {
+    background-color: rgba(174, 171, 171, 0.658);
+    color: black;
+}
+
+.presentation{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+#pp{ 
+    margin-top: 20px;
+}
+
+#resume{
+    margin-top: 20px;
+}
+
+#resume{
+    text-align: center;
+}
+
+.Portfolio{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+.PortfolioT{
+    display: none;
+}
+
+.Portfolio div {
+    text-align: center;
+}
+
+.Portfolio div a{
+   text-decoration: none;
+   color:white;
+}
+
+.Portfolio div a:hover{
+    color:red;
+ }
+
+ 
+.Portfolio img {
+    border-radius: 40px;
+}
+
+.Skill-Summary{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+.Skill-Summary ul li {
+    list-style-type: square;
+ }
+
+.Skill-Summary div h3{
+    text-align: center;
+   }
+
+.Softskill-Career_Highlights-Certification{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+.Softskill-Career_Highlights-Certification ul li {
+    list-style-type: circle;
+    text-align: center;
+ }
+ .Softskill-Career_Highlights-Certification ul li a{
+    text-decoration: none;
+    color: blue;
+ }
+
+ .Softskill-Career_Highlights-Certification ul li :hover{
+    color: red;
+ }
+
+.Softskill-Career_Highlights-Certification div h3{
+    text-align: center;
+   }
+
+.Education_CONTACT{
+    display:flex;
+    justify-content: center;
+    gap:150px;
+}
+
+.Education ul li {
+    text-align: center;
+ }
+
+.Education h3{
+    text-align: center;
+   }
+
+.CONTACT ul li{
+    text-align: center;
+}
+
+.CONTACT h3{
+    text-align: center;
+   }
+
+.CONTACT ul li a{
+    text-decoration: none;
+    color: blue;
+}
+
+.CONTACT ul li a:hover{
+    color: red;
+}
+
+footer{
+    text-align: center;
+   }
+
+hr{
+    color:red;
+}
